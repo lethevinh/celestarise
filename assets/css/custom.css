@@ -586,6 +586,18 @@ img.lazy[data-src] {
     border: 2px solid white;
 }
 
+.feature_img {
+    position: relative;
+}
+
+.feature_img p {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ef3b1c;
+    padding: 5px;
+}
+
 #particles-js {
     position: absolute;
     width: 100%;
