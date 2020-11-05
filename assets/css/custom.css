@@ -1171,10 +1171,32 @@ p {
     color: white;
 }
 
+.modal {
+    text-align: center;
+}
+
+.modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
 .popup .modal-body {
     padding: 0;
 }
 
+@media (min-width: 992px) {
+    .modal-lg {
+        max-width: 1200px;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .home_bg {
