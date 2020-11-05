@@ -1210,6 +1210,9 @@ p {
     .modal:before {
         height: auto;
     }
+    #modalPopup .modal-dialog.modal-lg{
+        margin-top: 200px;
+    }
 
     .footer-logo {
         max-width: 300px;
