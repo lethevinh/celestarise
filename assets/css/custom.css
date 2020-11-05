@@ -1165,25 +1165,7 @@ p {
 }
 
 
-@media not all and (min-resolution:.001dpcm) {
-    @media {
-        .tienich_bg::after {
-            padding: 4rem 6rem 30px 30px;
-            line-height: 2rem;
-            font-size: 1.1rem;
-        }
-    }
 
-    @media only screen and (max-width: 768px) {
-        .tienich_bg:nth-child(2)::after {
-            padding: 3rem 5.5rem 30px 30px;
-        }
-
-        .tienich_bg:nth-child(3)::after {
-            padding: 4rem 6rem 30px 30px;
-        }
-    }
-}
 
 @media only screen and (max-width: 768px) {
     .home_bg {
@@ -1218,7 +1200,25 @@ p {
         padding: 4rem 5rem 30px 30px;
     }
 }
+@media not all and (min-resolution:.001dpcm) {
+    @media {
+        .tienich_bg::after {
+            padding: 4rem 6rem 30px 30px;
+            line-height: 2rem;
+            font-size: 1.1rem;
+        }
+    }
 
+    @media only screen and (max-width: 768px) {
+        .tienich_bg:nth-child(2)::after {
+            padding: 3rem 5.5rem 30px 30px;
+        }
+
+        .tienich_bg:nth-child(3)::after {
+            padding: 4rem 6rem 30px 30px;
+        }
+    }
+}
 @media only screen and (max-width: 480px) {
     .single_feature h2 {
         /*font-size: 1rem !important;*/
