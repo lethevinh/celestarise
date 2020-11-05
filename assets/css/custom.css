@@ -1150,12 +1150,15 @@ p {
     .home_bg {
         height: auto;
     }
-    .tientich div:not(:first-child){
+
+    .tientich div:not(:first-child) {
         margin-top: -30px;
     }
+
     .tientich div {
         height: 400px !important;
     }
+
     .tientich div p {
         margin-top: 14%;
         padding-right: 80px;
@@ -1163,13 +1166,24 @@ p {
         line-height: 1.4rem;
         font-size: 19px;
     }
+
+    .ul-sssss {
+        margin-left: 10px !important;
+    }
 }
 
 @media only screen and (max-width: 480px) {
     .single_feature h2 {
-        font-size: 1rem !important;
-        line-height: 46px;
+        /*font-size: 1rem !important;*/
+        /*line-height: 46px;*/
     }
+
+    .md-auto-center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
 
     .image_big_slider {
         height: auto
