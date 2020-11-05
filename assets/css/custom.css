@@ -1160,8 +1160,16 @@ p {
     left: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 56px 5rem 30px 30px;
+    padding: 4rem 5rem 30px 30px;
     text-align: justify;
+}
+
+.tienich_bg:nth-child(2)::after {
+    padding: 3rem 4.5rem 30px 30px;
+}
+
+.tienich_bg:nth-child(3)::after {
+    padding: 4rem 5rem 30px 30px;
 }
 
 @media only screen and (max-width: 768px) {
