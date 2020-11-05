@@ -1040,7 +1040,7 @@ p {
 
 #accordionExample .card-body {
     padding: 0.6rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 #accordionExample .card-header {
@@ -1199,7 +1199,12 @@ p {
     .tienich_bg:nth-child(3)::after {
         padding: 4rem 5rem 30px 30px;
     }
+
+    .m-ss-2 {
+        margin: 2px;
+    }
 }
+
 @media not all and (min-resolution:.001dpcm) {
     @media {
         .tienich_bg::after {
@@ -1219,6 +1224,7 @@ p {
         }
     }
 }
+
 @media only screen and (max-width: 480px) {
     .single_feature h2 {
         /*font-size: 1rem !important;*/
