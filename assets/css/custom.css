@@ -780,6 +780,10 @@ img.lazy[data-src] {
     background-color: #d72928;
 }
 
+.single_feature_111 h2 {
+    margin-top: -10px;
+}
+
 .single_feature_111.single_feature ul li {
     line-height: 1.9rem;
 }
@@ -792,6 +796,7 @@ img.lazy[data-src] {
     margin-bottom: 1rem;
     line-height: 1.9rem;
 }
+
 .single_feature_444.single_feature ul li {
     margin-bottom: 0.3rem;
     line-height: 1.9rem;
@@ -818,12 +823,22 @@ img.lazy[data-src] {
 .sssss {
     width: 75%;
 }
-.work-slider-img p.t-bold{
+
+.work-slider-img p.t-bold {
     font-size: 0.9rem;
 }
+
 @media (max-width: 767px) {
     .header-title::after {
-        background-color: transparent;
+        background-color: transparent !important;
+    }
+
+    .header-title {
+        font-size: 1.4rem !important;
+    }
+
+    .single_feature_111 h2 {
+        margin-top: 10px;
     }
 
     .container-fluid.no-padding {
@@ -1134,6 +1149,19 @@ p {
 @media only screen and (max-width: 768px) {
     .home_bg {
         height: auto;
+    }
+    .tientich div:not(:first-child){
+        margin-top: -30px;
+    }
+    .tientich div {
+        height: 400px !important;
+    }
+    .tientich div p {
+        margin-top: 14%;
+        padding-right: 80px;
+        padding-left: 22px;
+        line-height: 1.4rem;
+        font-size: 19px;
     }
 }
 
