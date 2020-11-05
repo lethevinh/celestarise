@@ -1164,12 +1164,15 @@ p {
     text-align: justify;
 }
 
-.tienich_bg:nth-child(2)::after {
-    padding: 3rem 4.5rem 30px 30px;
-}
 
-.tienich_bg:nth-child(3)::after {
-    padding: 4rem 5rem 30px 30px;
+@media not all and (min-resolution:.001dpcm) {
+    @media {
+        .tienich_bg::after {
+            padding: 4rem 6rem 30px 30px;
+            line-height: 2rem;
+            font-size: 1.1rem;
+        }
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1195,6 +1198,14 @@ p {
 
     .ul-sssss {
         margin-left: 10px !important;
+    }
+
+    .tienich_bg:nth-child(2)::after {
+        padding: 3rem 4.5rem 30px 30px;
+    }
+
+    .tienich_bg:nth-child(3)::after {
+        padding: 4rem 5rem 30px 30px;
     }
 }
 
