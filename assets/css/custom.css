@@ -187,7 +187,7 @@ strong,
 
 .header-title {
     padding-top: 30px;
-    font-size: 1.4rem !important;
+    font-size: 1.5rem !important;
     font-weight: bold !important;
     /*border-bottom: 1px solid #f15552;*/
     width: fit-content;
@@ -781,11 +781,20 @@ img.lazy[data-src] {
 }
 
 .single_feature_111.single_feature ul li {
-    /*line-height: 30px;*/
+    line-height: 1.9rem;
 }
 
 .single_feature_222.single_feature ul li {
     line-height: 35px;
+}
+
+.single_feature_333.single_feature ul li {
+    margin-bottom: 1rem;
+    line-height: 1.9rem;
+}
+.single_feature_444.single_feature ul li {
+    margin-bottom: 0.3rem;
+    line-height: 1.9rem;
 }
 
 .header-title_111.header-title::after {
@@ -809,7 +818,9 @@ img.lazy[data-src] {
 .sssss {
     width: 75%;
 }
-
+.work-slider-img p.t-bold{
+    font-size: 0.9rem;
+}
 @media (max-width: 767px) {
     .header-title::after {
         background-color: transparent;
@@ -836,6 +847,11 @@ img.lazy[data-src] {
 
     .sssss {
         width: 100%;
+    }
+
+    .single_feature_333.single_feature ul li {
+        margin-bottom: 0;
+        line-height: 1.9rem;
     }
 }
 
@@ -923,13 +939,13 @@ img.lazy[data-src] {
 }
 
 .single_feature_111.single_feature_11111.single_feature ul li {
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 1rem;
+    /*line-height: 30px;*/
 }
 
 p {
     line-height: 30px;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .no-underline::after {
@@ -1027,11 +1043,11 @@ p {
     margin-left: 2px;
     white-space: inherit;
     text-align: left;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 #accordionExample .card-header {
-    padding: .8rem;
+    padding: .6rem;
 }
 
 .bg-footer::before {
