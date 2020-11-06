@@ -688,7 +688,9 @@ img.lazy[data-src] {
 .work-slider-img .single_portfolio .box:not(:hover) {
     overflow: initial;
 }
-
+.work-slider-img-2 .single_portfolio > a{
+    display: none;
+}
 .single_portfolio {
     margin: 0px 0px;
     padding: 10px;
