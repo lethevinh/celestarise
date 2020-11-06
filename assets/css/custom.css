@@ -688,9 +688,11 @@ img.lazy[data-src] {
 .work-slider-img .single_portfolio .box:not(:hover) {
     overflow: initial;
 }
-.work-slider-img-2 .single_portfolio > a{
+
+.work-slider-img-2 .single_portfolio>a {
     display: none;
 }
+
 .single_portfolio {
     margin: 0px 0px;
     padding: 10px;
@@ -1200,6 +1202,10 @@ p {
     max-width: 420px;
 }
 
+.slider-text-img {
+    max-height: 180px;
+}
+
 @media (min-width: 992px) {
     .modal-lg {
         max-width: 1200px;
@@ -1211,10 +1217,15 @@ p {
         height: auto;
     }
 
+    .slider-text-img {
+        height: auto;
+    }
+
     .modal:before {
         height: auto;
     }
-    #modalPopup .modal-dialog.modal-lg{
+
+    #modalPopup .modal-dialog.modal-lg {
         margin-top: 200px;
     }
 
