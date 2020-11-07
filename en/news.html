@@ -120,21 +120,21 @@
                         <form>
                             <div class="form-group">
                                 <label for="Name"></label>
-                                <input class="form-control requiredField input-label o2o-name" data-val="true" data-val-required="Thông tin là bắt buộc nhập" id="Name" maxlength="50" name="Name" placeholder="Họ tên" type="text" value="" />
+                                <input class="form-control requiredField input-label o2o-name" data-val="true" data-val-required="required" id="Name" maxlength="50" name="Name" placeholder="FullName" type="text" value="" />
                                 <span class="field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
                             </div>
                             <div class="form-group">
                                 <label for="Phone"></label>
-                                <input class="form-control number-only o2o-phone" data-val="true" data-val-required="Thông tin là bắt buộc nhập" data-val-length="Số điện thoại không hợp lệ" data-val-length-max="13" data-val-length-min="10" data-val-regex="Số điện thoại không hợp lệ" data-val-regex-pattern="^[0-9]*$" data-val-requiredif="Thông tin là bắt buộc nhập." data-val-requiredif-comp="isequalto" data-val-requiredif-other="Email" data-val-requiredif-value="" id="Phone" maxlength="14" name="Phone" placeholder="Số điện thoại" type="number" value="" />
+                                <input class="form-control number-only o2o-phone" data-val="true" data-val-required="required" data-val-length="invalid phone number" data-val-length-max="13" data-val-length-min="10" data-val-regex="invalid phone number" data-val-regex-pattern="^[0-9]*$" data-val-requiredif="required." data-val-requiredif-comp="isequalto" data-val-requiredif-other="Email" data-val-requiredif-value="" id="Phone" maxlength="14" name="Phone" placeholder="Phone Number" type="number" value="" />
                                 <span class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
                             </div>
                             <div class="form-group">
                                 <label for="Email"></label>
-                                <input class="form-control o2o-email" id="Email" maxlength="50" name="Email" placeholder="Địa chỉ email" type="email" value="" />
+                                <input class="form-control o2o-email" id="Email" maxlength="50" name="Email" placeholder="Email" type="email" value="" />
                                 <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
                             </div>
                             <div class="form-group mbnone text-center">
-                                <button style="border: none;background-color: #D69F6F;font-weight: bold;color: white;font-weight: bold;" class="btn btn-register-bg btn-register-a red-bg" name="submit">Nhận thông tin</button>
+                                <button style="border: none;background-color: #D69F6F;font-weight: bold;color: white;font-weight: bold;" class="btn btn-register-bg btn-register-a red-bg" name="submit">Receive information</button>
                             </div>
                         </form>
                     </div>
@@ -403,7 +403,7 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <img data-src="/assets/images/Popup-01.jpg" class="img-fluid lazy" alt="" />
+                    <img data-src="/assets/images/Popup-01-en.jpg" class="img-fluid lazy" alt="" />
                 </div>
             </div>
         </div>
@@ -421,23 +421,23 @@
                     <div class="modal-body">
                         <div class="form-group">
                             <label for="Name"></label>
-                            <input class="form-control requiredField input-label o2o-name" data-val="true" data-val-required="Thông tin là bắt buộc nhập" id="Name" maxlength="50" name="Name" placeholder="Họ tên" type="text" value="" />
+                            <input class="form-control requiredField input-label o2o-name" data-val="true" data-val-required="required" id="Name" maxlength="50" name="Name" placeholder="FullName" type="text" value="" />
                             <span class="field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
                         </div>
                         <div class="form-group">
                             <label for="Phone"></label>
-                            <input class="form-control number-only o2o-phone" data-val="true" data-val-required="Thông tin là bắt buộc nhập" data-val-length="Số điện thoại không hợp lệ" data-val-length-max="13" data-val-length-min="10" data-val-regex="Số điện thoại không hợp lệ" data-val-regex-pattern="^[0-9]*$" data-val-requiredif="Thông tin là bắt buộc nhập." data-val-requiredif-comp="isequalto" data-val-requiredif-other="Email" data-val-requiredif-value="" id="Phone" maxlength="14" name="Phone" placeholder="Số điện thoại" type="number" value="" />
+                            <input class="form-control number-only o2o-phone" data-val="true" data-val-required="required" data-val-length="Số điện thoại không hợp lệ" data-val-length-max="13" data-val-length-min="10" data-val-regex="Số điện thoại không hợp lệ" data-val-regex-pattern="^[0-9]*$" data-val-requiredif="Thông tin là bắt buộc nhập." data-val-requiredif-comp="isequalto" data-val-requiredif-other="Email" data-val-requiredif-value="" id="Phone" maxlength="14" name="Phone" placeholder="Phone Number" type="number" value="" />
                             <span class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
                         </div>
                         <div class="form-group">
                             <label for="Email"></label>
-                            <input class="form-control o2o-email" id="Email" maxlength="50" name="Email" placeholder="Địa chỉ email" type="email" value="" />
+                            <input class="form-control o2o-email" id="Email" maxlength="50" name="Email" placeholder="Email" type="email" value="" />
                             <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="reset" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-                        <button class="btn btn-register-bg btn-register-b red-bg">Nhận thông tin</button>
+                        <button type="reset" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button class="btn btn-register-bg btn-register-b red-bg">Receive information</button>
                     </div>
                 </form>
             </div>
@@ -448,13 +448,13 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Xin Chúc mừng </h5>
+                    <h5 class="modal-title">Congratulations </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    Xin chúc mừng bạn đã gửi tin nhắn thành công, chuyên viên tư vấn PKD sẽ liên hệ lại với bạn ngay.0
+                    Congratulations on your successful message, the PKD consultant will get back to you shortly.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
