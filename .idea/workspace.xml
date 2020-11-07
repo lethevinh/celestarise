@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="304119ec-40a2-477e-ac37-42f8d0cd07ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/analytic.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/snippets/font.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/archives/blog-en.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/pages/home-en.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/pages/news.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/footer-en.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/header-en.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/snippets/head.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/snippets/head.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/assets/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/archives/blog.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/archives/blog.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/layouts/theme.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/layouts/theme.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/pages/home.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/pages/home.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/header.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +40,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/zeitgeistlandnhabe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/archives" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/duancelestarise/assets/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/archives" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/pages" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections" />
       <recent name="$PROJECT_DIR$/wp-content/themes/zeitgeistlandnhabe" />
     </key>
   </component>
@@ -51,7 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604666636393</updated>
       <workItem from="1604666637564" duration="3738000" />
-      <workItem from="1604741959267" duration="5020000" />
+      <workItem from="1604741959267" duration="6441000" />
+      <workItem from="1604763604420" duration="2358000" />
     </task>
     <servers />
   </component>
@@ -63,6 +77,14 @@
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state x="843" y="406" key="#PHP_CodeSniffer_Ignored_Files/0.23.1680.979@0.23.1680.979" timestamp="1604747179978" />
+    <state x="751" y="451" key="#WordPress" timestamp="1604763614349">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="751" y="451" key="#WordPress/0.23.1680.979@0.23.1680.979" timestamp="1604763614349" />
+    <state x="564" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604764615311">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="564" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.979@0.23.1680.979" timestamp="1604764615311" />
     <state x="325" y="139" width="1240" height="677" key="DiffContextDialog" timestamp="1604667009847">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
@@ -71,9 +93,12 @@
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state x="712" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.979@0.23.1680.979" timestamp="1604747303479" />
-    <state x="585" y="205" width="751" height="656" key="find.popup" timestamp="1604760914205">
+    <state x="585" y="205" width="751" height="656" key="find.popup" timestamp="1604763993863">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state x="585" y="205" width="751" height="656" key="find.popup/0.23.1680.979@0.23.1680.979" timestamp="1604760914205" />
+    <state x="585" y="205" width="751" height="656" key="find.popup/0.23.1680.979@0.23.1680.979" timestamp="1604763993863" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>$PROJECT_DIR$</wordpressPath>
   </component>
 </project>
