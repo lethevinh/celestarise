@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="304119ec-40a2-477e-ac37-42f8d0cd07ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/archives/blog-en.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/pages/home-en.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/pages/news.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/footer-en.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/header-en.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/assets/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/archives/blog.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/archives/blog.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/layouts/theme.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/layouts/theme.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/pages/home.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/pages/home.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/header.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/footer.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +55,7 @@
       <updated>1604666636393</updated>
       <workItem from="1604666637564" duration="3738000" />
       <workItem from="1604741959267" duration="6441000" />
-      <workItem from="1604763604420" duration="2358000" />
+      <workItem from="1604763604420" duration="2640000" />
     </task>
     <servers />
   </component>
