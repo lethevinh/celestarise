@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="304119ec-40a2-477e-ac37-42f8d0cd07ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/header.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/snippets/head.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/snippets/head.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
       <workItem from="1604666637564" duration="3738000" />
       <workItem from="1604741959267" duration="6441000" />
       <workItem from="1604763604420" duration="3459000" />
-      <workItem from="1604824671633" duration="667000" />
+      <workItem from="1604824671633" duration="801000" />
     </task>
     <servers />
   </component>
