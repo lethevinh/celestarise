@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="304119ec-40a2-477e-ac37-42f8d0cd07ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en_/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/en_/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/assets/images/Popup-01-en.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/assets/images/Popup-01-en.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/assets/images/Popup-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/assets/images/Popup-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/pages/home-en.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/pages/en.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/assets/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/header-en.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/header-en.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/header.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,7 @@
       <workItem from="1604666637564" duration="3738000" />
       <workItem from="1604741959267" duration="6441000" />
       <workItem from="1604763604420" duration="3459000" />
-      <workItem from="1604824671633" duration="184000" />
+      <workItem from="1604824671633" duration="539000" />
     </task>
     <servers />
   </component>
