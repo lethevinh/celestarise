@@ -133,8 +133,49 @@ class StarterSite extends Timber\Site {
 	}
 	/** This is where you can register custom widgets. */
 	public function register_routers() {
+        Routes::map('forms/register', function ($params) {
+            // Set the post ID to -1. This sets to no action at moment
+            $post_id = -1;
 
-	}
+            // Set the Author, Slug, title and content of the new post
+            $author_id = 1;
+            $slug = 'wordpress-post-created-with-code';
+            $title = 'WordPress post created whith code';
+            $content = '';
+            // Set the post ID
+            $fullname = isset($_GET['fullname']) ? $_GET['fullname'] : false;
+            $email = isset($_GET['email']) ? $_GET['email'] : false;
+            $phone = isset($_GET['phone']) ? $_GET['phone'] : false;
+            $data = [
+                'status' => false,
+                'post_id' =>false
+            ];
+            if ($fullname && $email && $phone) {
+                $post_id = wp_insert_post(
+                    array(
+                        'comment_status' => 'closed',
+                        'ping_status' => 'closed',
+                        'post_author' => $author_id,
+                        'post_name' => $slug,
+                        'post_title' => $title,
+                        'post_content' => $content,
+                        'post_status' => 'publish',
+                        'post_type' => 'register',
+                        "meta_input" => [
+                            'fullname'=> $_GET['fullname'],
+                            'email'=> $_GET['email'],
+                            'phone'=> $_GET['phone'],
+                        ]
+                    )
+                );
+                $data = [
+                    'status' => $post_id,
+                    'post_id' =>$post_id
+                ];
+            }
+            Routes::load('api.php', $params, $data, 200);
+        });
+    }
 
 	/** This is where you add some context
 	 *
@@ -223,6 +264,34 @@ class StarterSite extends Timber\Site {
         if ($classMenuitemActive) {
             add_filter('nav_menu_css_class', [$this, 'special_nav_class'], 10, 2);
         }
+        function register_columns_book_head($columns) {
+            unset( $columns['title']  );
+            unset( $columns['author'] );
+            unset( $columns['date']   );
+            unset( $columns['comments']   );
+
+            return array_merge ( $columns, array (
+                'fullname' => __ ( 'FullName' ),
+                'email'   => __ ( 'Email' ),
+                'phone'   => __ ( 'Phone' )
+            ) );
+        }
+        function register_columns_book_content($column_name, $post_ID) {
+            if ($column_name == 'fullname') {
+                echo (new \Timber\Post($post_ID))->fullname;
+            }
+            if ($column_name == 'title') {
+                echo (new \Timber\Post($post_ID))->fullname;
+            }
+            if ($column_name == 'email') {
+                echo (new \Timber\Post($post_ID))->email;
+            }
+            if ($column_name == 'phone') {
+                echo (new \Timber\Post($post_ID))->phone;
+            }
+        }
+        add_filter('manage_register_posts_columns', 'register_columns_book_head');
+        add_action('manage_register_posts_custom_column', 'register_columns_book_content', 10, 2);
 	}
 
     function special_nav_class($classes, $item)
