@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="304119ec-40a2-477e-ac37-42f8d0cd07ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/snippets/head.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/snippets/head.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/header-en.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/sections/header-en.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/duancelestarise/src/views/archives" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -57,7 +57,8 @@
       <workItem from="1604666637564" duration="3738000" />
       <workItem from="1604741959267" duration="6441000" />
       <workItem from="1604763604420" duration="3459000" />
-      <workItem from="1604824671633" duration="801000" />
+      <workItem from="1604824671633" duration="1029000" />
+      <workItem from="1604902357320" duration="74000" />
     </task>
     <servers />
   </component>
