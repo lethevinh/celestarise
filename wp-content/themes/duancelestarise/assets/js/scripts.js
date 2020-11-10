@@ -12,7 +12,9 @@ Version      : 1.0
         $(window).on('load', function() {
             // $('.spinner').fadeOut();
             // $('.preloader').delay(350).fadeOut('slow');
-            $('#modalPopup').modal('show');
+            setTimeout(function (){
+                $('#modalPopup').modal('show');
+            }, 1000);
         });
         /*END PRELOADER JS*/
         $('.lazy').lazy({ placeholder: '', defaultImage: '' });
