@@ -873,6 +873,20 @@ img.lazy[data-src] {
         margin-bottom: 0;
         line-height: 1.9rem;
     }
+    .navbar .collapse {
+        display: block;
+    }
+    .navbar .collapse ul.navbar-nav{
+        display: inline-block;
+    }
+    .navbar .collapse li{
+        margin-top: 0;
+        display: inline-block;
+    }
+    .navbar-light .navbar-nav .nav-link,
+    .navbar .collapse li a{
+        color: white;
+    }
 }
 
 @media only screen and (max-width: 480px) {
