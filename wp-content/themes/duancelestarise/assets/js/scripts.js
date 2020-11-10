@@ -14,7 +14,7 @@ Version      : 1.0
             // $('.preloader').delay(350).fadeOut('slow');
             setTimeout(function (){
                 $('#modalPopup').modal('show');
-            }, 1000);
+            }, 12000);
         });
         /*END PRELOADER JS*/
         $('.lazy').lazy({ placeholder: '', defaultImage: '' });

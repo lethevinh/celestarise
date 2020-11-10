@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="304119ec-40a2-477e-ac37-42f8d0cd07ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/assets/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +32,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PHPCodeSnifferBlackList">
@@ -37,7 +52,7 @@
     <property name="add_unversioned_files" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/duancelestarise/theme" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -67,11 +82,23 @@
       <workItem from="1604902357320" duration="8176000" />
       <workItem from="1604972959636" duration="2474000" />
       <workItem from="1604976346518" duration="3000" />
+      <workItem from="1605021220115" duration="65000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="843" y="406" key="#PHP_CodeSniffer_Ignored_Files" timestamp="1604747179978">
@@ -94,6 +121,10 @@
       <screen x="1440" y="23" width="1920" height="1009" />
     </state>
     <state x="2006" y="29" key="RollbackChangesDialog/0.23.1440.877/1440.23.1920.1009@1440.23.1920.1009" timestamp="1604914013154" />
+    <state x="344" y="45" key="SettingsEditor" timestamp="1605021284399">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="344" y="45" key="SettingsEditor/0.23.1680.979@0.23.1680.979" timestamp="1605021284399" />
     <state x="1866" y="70" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604914004240">
       <screen x="1440" y="23" width="1920" height="1009" />
     </state>
