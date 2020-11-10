@@ -162,9 +162,9 @@ class StarterSite extends Timber\Site {
                         'post_status' => 'publish',
                         'post_type' => 'register',
                         "meta_input" => [
-                            'fullname'=> $_GET['fullname'],
-                            'email'=> $_GET['email'],
-                            'phone'=> $_GET['phone'],
+                            'fullname'=> $fullname,
+                            'email'=> $email,
+                            'phone'=> $phone,
                         ]
                     )
                 );
