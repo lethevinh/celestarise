@@ -1380,7 +1380,7 @@ p {
 
 @media only screen and (max-width: 768px) {
     .home_bg {
-        height: 100vh;
+        height: 85vh;
     }
 
     .slider-text-img {
