@@ -1028,11 +1028,15 @@ img.lazy[data-src] {
         margin-left: 5px;
         margin-right: 5px;
     }
+    table.overview {
+        width: 98%;
+        margin: 0 5px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
     .hero-text {
-        padding-top: 110px !important;
+        /*padding-top: 110px !important;*/
     }
 
     .hero-text img {
@@ -1376,7 +1380,7 @@ p {
 
 @media only screen and (max-width: 768px) {
     .home_bg {
-        height: auto;
+        height: 100vh;
     }
 
     .slider-text-img {
