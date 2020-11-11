@@ -994,10 +994,12 @@ img.lazy[data-src] {
         position: fixed;
         left: 0;
         right: 0;
-        top: 55px;
+        top: 70px;
         text-align: center;
         color: white;
         display: block !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
     }
 
     .navbar-fixed.navbar-light #navbarLang .navbar-nav .nav-link, .navbar-fixed.navbar #navbarLang.collapse li a,
