@@ -40,6 +40,7 @@ body {
 }
 table.overview{
     font-size: 1rem;
+    width: 95%;
 }
 table.overview td{
     padding: 13px 5px;
