@@ -38,6 +38,12 @@ body {
     line-height: 1.4rem;
 
 }
+table.overview{
+    font-size: 0.8rem;s
+}
+table.overview td{
+    padding: 13px 5px;
+}
 
 h1,
 h2,
