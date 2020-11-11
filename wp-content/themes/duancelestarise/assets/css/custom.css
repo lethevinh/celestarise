@@ -1023,6 +1023,7 @@ img.lazy[data-src] {
 
     .navbar-toggleable-sm #navbarCollapse.navbar-collapse {
         display: flex;
+        z-index: 88888;
     }
     .menu-mobile-container{
         margin-left: 5px;
