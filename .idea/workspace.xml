@@ -15,7 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="304119ec-40a2-477e-ac37-42f8d0cd07ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/assets/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/duancelestarise/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/duancelestarise/assets/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +85,7 @@
       <workItem from="1605021220115" duration="306000" />
       <workItem from="1605079370688" duration="7140000" />
       <workItem from="1605104996008" duration="4155000" />
+      <workItem from="1605283194641" duration="2168000" />
     </task>
     <servers />
   </component>
@@ -135,12 +137,13 @@
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state x="712" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.979@0.23.1680.979" timestamp="1604747303479" />
-    <state x="2109" y="211" width="1143" height="677" key="find.popup" timestamp="1604921800835">
-      <screen x="1440" y="23" width="1920" height="1009" />
+    <state x="585" y="206" width="1001" height="692" key="find.popup" timestamp="1605284203601">
+      <screen x="0" y="25" width="1680" height="971" />
     </state>
     <state x="2109" y="211" width="1143" height="677" key="find.popup/0.23.1440.877/1440.23.1920.1009@1440.23.1920.1009" timestamp="1604921800835" />
     <state x="585" y="205" width="751" height="656" key="find.popup/0.23.1680.979@0.23.1680.979" timestamp="1604763993863" />
     <state x="669" y="211" width="859" height="677" key="find.popup/0.23.1920.1009@0.23.1920.1009" timestamp="1604902436595" />
+    <state x="585" y="206" width="1001" height="692" key="find.popup/0.25.1680.971@0.25.1680.971" timestamp="1605284203601" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$</wordpressPath>

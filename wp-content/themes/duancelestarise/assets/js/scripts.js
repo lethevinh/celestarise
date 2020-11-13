@@ -15,6 +15,9 @@ Version      : 1.0
             setTimeout(function (){
                 $('#modalPopup').modal('show');
             }, 15000);
+            setTimeout(function (){
+                $('#exampleModal').modal('show');
+            }, 30000);
         });
         /*END PRELOADER JS*/
         $('.lazy').lazy({ placeholder: '', defaultImage: '' });
