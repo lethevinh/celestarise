@@ -16,6 +16,7 @@ Version      : 1.0
                 $('#modalPopup').modal('show');
             }, 15000);
             setTimeout(function (){
+                $('#modalPopup').modal('hide');
                 $('#exampleModal').modal('show');
             }, 30000);
         });
