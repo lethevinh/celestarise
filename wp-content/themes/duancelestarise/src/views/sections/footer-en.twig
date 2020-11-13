@@ -56,15 +56,15 @@
 </div>
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-        <div class="modal-content">
+        <div class="modal-content register">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">* Register view project information</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
             </div>
             <form>
-                <div class="modal-body">
+                <div class="modal-body p-3">
                     <div class="form-group">
                         <label for="Name"></label>
                         <input class="form-control requiredField input-label o2o-name" data-val="true" data-val-required="required" id="Name" maxlength="50" name="Name" placeholder="FullName" type="text" value="" />
@@ -75,14 +75,13 @@
                         <input class="form-control number-only o2o-phone" data-val="true" data-val-required="required" data-val-length="Số điện thoại không hợp lệ" data-val-length-max="13" data-val-length-min="10" data-val-regex="Số điện thoại không hợp lệ" data-val-regex-pattern="^[0-9]*$" data-val-requiredif="Thông tin là bắt buộc nhập." data-val-requiredif-comp="isequalto" data-val-requiredif-other="Email" data-val-requiredif-value="" id="Phone" maxlength="14" name="Phone" placeholder="Phone Number" type="number" value="" />
                         <span class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group mb-0">
                         <label for="Email"></label>
                         <input class="form-control o2o-email" id="Email" maxlength="50" name="Email" placeholder="Email" type="email" value="" />
                         <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
                     </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="reset" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <div class="modal-footer" style="justify-content: flex-start;border: none">
                     <button class="btn btn-register-bg btn-register-b red-bg">Receive information</button>
                 </div>
             </form>
