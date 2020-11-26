@@ -13,11 +13,10 @@ Version      : 1.0
             // $('.spinner').fadeOut();
             // $('.preloader').delay(350).fadeOut('slow');
             setTimeout(function (){
-                $('#modalPopup').modal('show');
+                // $('#modalPopup[aria-hidden="true"]').modal('show');
             }, 15000);
             setTimeout(function (){
-                $('#modalPopup').modal('hide');
-                $('#exampleModal').modal('show');
+                // $('#modalPopup[aria-hidden="true"]').modal('show');
             }, 30000);
         });
         /*END PRELOADER JS*/
