@@ -189,15 +189,14 @@ Version      : 1.0
             url += '&phone=' + a.Phone;
             $.post(url, data)
                 .done(function() {
-                    // alert("second success");
+                    $('#thankModal').modal('show');
+                    form.get(0).reset();
                 })
                 .fail(function() {
-                    // alert("error");
+                    alert("error");
                 })
                 .always(function() {
                     $('#exampleModal').modal('hide');
-                    $('#thankModal').modal('show');
-                    form.get(0).reset();
                 });
             e.stopPropagation();
             e.preventDefault();
