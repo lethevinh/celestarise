@@ -153,7 +153,6 @@ Version      : 1.0
     new WOW().init();
     /*END WOW ANIMATION JS*/
     $('.btn-register-bc').click(function(e) {
-
         let form = $(this).parents('form');
         let data = form.serializeArray();
         if (data.every(item => item.value)) {
@@ -189,7 +188,9 @@ Version      : 1.0
             url += '&phone=' + a.Phone;
             $.post(url, data)
                 .done(function() {
-                    $('#thankModal').modal('show');
+                    setTimeout(()=>{
+                        $('#thankModal').modal('show');
+                    },1000)
                     form.get(0).reset();
                 })
                 .fail(function() {
@@ -197,6 +198,8 @@ Version      : 1.0
                 })
                 .always(function() {
                     $('#exampleModal').modal('hide');
+                    $('body').removeClass('modal-open');
+                    $('.modal-backdrop').remove();
                 });
             e.stopPropagation();
             e.preventDefault();
