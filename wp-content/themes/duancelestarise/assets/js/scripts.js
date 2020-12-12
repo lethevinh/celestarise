@@ -152,7 +152,7 @@ Version      : 1.0
     /*START WOW ANIMATION JS*/
     new WOW().init();
     /*END WOW ANIMATION JS*/
-    $('.btn-register-b').click(function(e) {
+    $('.btn-register-bc').click(function(e) {
 
         let form = $(this).parents('form');
         let data = form.serializeArray();
@@ -173,7 +173,7 @@ Version      : 1.0
             e.preventDefault();
         }
     });
-    $('.btn-register-a').click(function(e) {
+    $('.btn-register-b').click(function(e) {
         e.stopPropagation();
         e.preventDefault();
         let form = $(this).parents('form');
@@ -195,6 +195,7 @@ Version      : 1.0
                     // alert("error");
                 })
                 .always(function() {
+                    $('#exampleModal').modal('hide');
                     $('#thankModal').modal('show');
                     form.get(0).reset();
                 });
