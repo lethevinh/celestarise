@@ -190,7 +190,7 @@ Version      : 1.0
                 .done(function() {
                     setTimeout(()=>{
                         $('#thankModal').modal('show');
-                    },1000)
+                    },500)
                     form.get(0).reset();
                 })
                 .fail(function() {
