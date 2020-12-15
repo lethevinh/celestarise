@@ -14,9 +14,11 @@ Version      : 1.0
             // $('.preloader').delay(350).fadeOut('slow');
             setTimeout(function (){
                 // $('#modalPopup[aria-hidden="true"]').modal('show');
+                $('#exampleModal[aria-hidden="true"]').modal('show');
             }, 15000);
             setTimeout(function (){
                 // $('#modalPopup[aria-hidden="true"]').modal('show');
+                $('#exampleModal[aria-hidden="true"]').modal('show');
             }, 30000);
         });
         /*END PRELOADER JS*/
