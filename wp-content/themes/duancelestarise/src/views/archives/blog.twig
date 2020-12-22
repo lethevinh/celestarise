@@ -16,21 +16,7 @@
         <div class="row">
             <div class="col-lg-12 col-sm-12 col-xs-12">
                 <div id="work-slider-3" class="owl-carousel work-slider-img">
-                    <div class="single_portfolio">
-                        <div class="box">
-                            <img src="{{theme_url()}}assets/images/23.png" alt="">
-                        </div>
-                    </div>
-                    <div class="single_portfolio">
-                        <div class="box">
-                            <img src="{{theme_url()}}assets/images/24.png" alt="">
-                        </div>
-                    </div>
-                    <div class="single_portfolio">
-                        <div class="box">
-                            <img src="{{theme_url()}}assets/images/25.png" alt="">
-                        </div>
-                    </div>
+                    {% shortcode 'post_type'  with {type: 'post',category:'tin-tuc-du-an',template: 'single-portfolio'} %}
                 </div>
             </div><!-- END ROW -->
         </div><!-- END CONTAINER -->
